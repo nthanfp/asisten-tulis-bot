@@ -55,11 +55,9 @@ require('./lib/config.php');
         </div>
     </main>
     <!-- /.container -->
-    <!-- Bootstrap core JavaScript
-            ================================================== -->
+
     <!-- Placed at the end of the document so the pages load faster -->
-    <script src="https://theaxe.net/assets/js/jquery-3.3.1.js"></script>
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    <script src="https://code.jquery.com/jquery-3.7.1.js"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.bundle.min.js"></script>
     <script src="https://theaxe.net/assets/js/jquery.dataTables.min.js"></script>
     <script src="https://theaxe.net/assets/js/dataTables.bootstrap4.min.js"></script>
