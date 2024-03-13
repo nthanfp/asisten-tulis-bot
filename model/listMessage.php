@@ -11,7 +11,8 @@ $columns        = array(
         'dt' => 0,
         'field' => 'date',
         'formatter' => function($d, $row){
-            return date('d M Y H:i:s', $d);
+            // return date('d M Y H:i:s', $d);
+            return $d;
         }
     ),
     array(

@@ -1,6 +1,4 @@
-<?php
-require('./lib/config.php');
-?>
+<?php require('./lib/config.php'); ?>
 <!doctype html>
 <html lang="en">
 
@@ -12,9 +10,9 @@ require('./lib/config.php');
     <link rel="icon" href="/docs/4.0/assets/img/favicons/favicon.ico">
     <title>Asisten Tulis BOT Monitoring</title>
     <!-- Bootstrap core CSS -->
-    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/5.3.0/css/bootstrap.min.css" rel="stylesheet">
     <!-- Datatable CSS -->
-    <link href="https://theaxe.net/assets/css/dataTables.bootstrap4.min.css" rel="stylesheet">
+    <link href="https://cdn.datatables.net/2.0.2/css/dataTables.bootstrap5.css" rel="stylesheet">
 </head>
 
 <body>
@@ -58,8 +56,9 @@ require('./lib/config.php');
 
     <!-- Placed at the end of the document so the pages load faster -->
     <script src="https://code.jquery.com/jquery-3.7.1.js"></script>
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.bundle.min.js"></script>
-    <script src="https://cdn.datatables.net/2.0.2/js/dataTables.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/5.3.0/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdn.datatables.net/2.0.2/js/dataTables.js"></script>
+    <script src="https://cdn.datatables.net/2.0.2/js/dataTables.bootstrap5.js"></script>
     <script type="text/javascript">
         $(document).ready(function() {
 

@@ -21,7 +21,7 @@ if(mysqli_connect_errno()){
 }
 
 //Config
-$config['host']				= 'https://asisten-tulis.theaxe.net';
+$config['host']				= 'http://localhost/asisten-tulis';
 $config['telegram_token']	= '1279356572:AAGUZgiXZ71eewOIGoDQe1bcpd_zaEgBGSc';
 
 //Require
