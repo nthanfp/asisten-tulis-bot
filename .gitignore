@@ -1,0 +1,91 @@
+# Ignore system and hidden files
+.DS_Store
+Thumbs.db
+
+# Ignore Composer dependencies
+/vendor/
+
+# Ignore PHPStorm project files
+.idea/
+
+# Ignore PHPUnit test results
+/phpunit.xml
+/phpunit.xml.dist
+/tests/
+
+# Ignore PHP code coverage reports
+/coverage/
+
+# Ignore PHP_CodeSniffer files
+/phpcs.xml
+/phpcs.xml.dist
+
+# Ignore PHPStan and Psalm static analysis files
+/phpstan.neon
+/psalm.xml
+
+# Ignore PHPMD files
+/phpmd.xml
+/phpmd.xml.dist
+
+# Ignore PHPCPD files
+/phpcpd.xml
+/phpcpd.xml.dist
+
+# Ignore PHPDocumentor files
+/phpdoc.dist.xml
+
+# Ignore PHPMD files
+/phpmd.xml
+/phpmd.xml.dist
+
+# Ignore PHP Copy/Paste Detector (PHPCPD)
+/phpcpd.xml
+/phpcpd.xml.dist
+
+# Ignore PHP Mess Detector (PHPMD)
+/phpmd.xml
+/phpmd.xml.dist
+
+# Ignore PHPDocumentor files
+/phpdoc.xml
+/phpdoc.xml.dist
+
+# Ignore PHP Metrics files
+/phpmetrics.xml
+
+# Ignore PHPCodeBrowser files
+/phpcb.xml
+
+# Ignore Vagrant virtual environment
+/.vagrant/
+
+# Ignore environment configuration
+/.env
+
+# Ignore logs
+/log/
+/logs/
+
+# Ignore user uploads or user-generated content
+/uploads/
+
+# Ignore cache files
+/cache/
+/public/cache/
+/var/cache/
+
+# Ignore session files
+/sessions/
+/var/sessions/
+
+# Ignore temporary files
+/tmp/
+/temp/
+
+# Ignore compiled templates
+/templates_c/
+
+# Ignore output folder
+/output/
+/!Archive/

@@ -1,0 +1,14 @@
+{
+    "name": "nthanfp/image",
+    "authors": [
+        {
+            "name": "Nathanael Ferry P",
+            "email": "ntnferry1505@gmail.com"
+        }
+    ],
+    "require": {
+        "intervention/image": "^2.5",
+        "eleirbag89/telegrambotphp": "^1.3",
+        "vlucas/phpdotenv": "^5.6"
+    }
+}
