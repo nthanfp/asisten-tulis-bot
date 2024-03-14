@@ -1,6 +1,13 @@
 <?php
 date_default_timezone_set('Asia/Jakarta');
 
+// Set error reporting to display all errors and log them to a file
+ini_set('display_errors', 1);
+ini_set('display_startup_errors', 1);
+error_reporting(E_ALL);
+ini_set('log_errors', 1);
+ini_set('error_log', 'error.log');
+
 require __DIR__.'/../vendor/autoload.php';
 
 $dotenv = Dotenv\Dotenv::createImmutable(__DIR__.'/..');
@@ -21,8 +28,8 @@ if(mysqli_connect_errno()){
 }
 
 //Config
-$config['host']				= 'http://localhost/asisten-tulis';
-$config['telegram_token']	= '1279356572:AAGUZgiXZ71eewOIGoDQe1bcpd_zaEgBGSc';
+$config['host']				= $_ENV['HOST'];
+$config['telegram_token']	= $_ENV['TELEGRAM_TOKEN'];
 
 //Require
 include('function.class.php');

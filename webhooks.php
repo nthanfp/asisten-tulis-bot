@@ -11,11 +11,11 @@ $chat_id	= $telegram->ChatID();
 $msg_id 	= $telegram->MessageID();
 $username	= $telegram->Username();
 $datex		= $telegram->Date();
-$date		= date('Y-m-d H:i:s', $datex);
+$date		= date('Y-m-d', $datex);
 $time		= time();
 $temp		= "[" . date('Y-m-d H:i:s') . "][" . $date . "][" . $msg_id . "][" . $chat_id . "][" . $username . "] => " . $text . "\n";
 file_put_contents('history.log', $temp, FILE_APPEND);
-mysqli_query($conn, "INSERT INTO `tbl_message` (`id_message`, `date`, `chat_id`, `username`, `text`, `created_at`) VALUES ('$msg_id', '$datex', '$chat_id', '$username', '$text', '$time')");
+mysqli_query($conn, "INSERT INTO `tbl_message` (`id_message`, `date`, `chat_id`, `username`, `text`, `created_at`) VALUES ('$msg_id', '$date', '$chat_id', '$username', '$text', '$time')");
 echo $temp;
 if ($text == '/start') {
 	$reply 		= "Haloo kak! Ini dengan bot Asisten Tulis. Apakah ada yang bisa dibantu kak? Jika membutuhkan bantuan silahkan ketik /help ya kak";
@@ -185,4 +185,3 @@ if ($text == '/start') {
 	$content = ['chat_id' => $chat_id, 'text' => $reply];
 	$telegram->sendMessage($content);
 }
-//sleep(1);
