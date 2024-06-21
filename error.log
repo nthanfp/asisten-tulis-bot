@@ -1,0 +1,16 @@
+[21-Jun-2024 16:38:01 Asia/Jakarta] PHP Version: 8.1.10
+[21-Jun-2024 16:38:01 Asia/Jakarta] Extension gd is loaded.
+[21-Jun-2024 16:38:01 Asia/Jakarta] Extension imagick is not loaded.
+[21-Jun-2024 16:38:01 Asia/Jakarta] Testing write permissions in directory: C:\laragon\www\asisten-tulis\output
+[21-Jun-2024 16:38:01 Asia/Jakarta] File write successful: C:\laragon\www\asisten-tulis\output/test.txt
+[21-Jun-2024 16:38:01 Asia/Jakarta] Directory is writable: C:\laragon\www\asisten-tulis\output
+[21-Jun-2024 16:38:01 Asia/Jakarta] Directory exists: C:\laragon\www\asisten-tulis\output
+[21-Jun-2024 16:38:01 Asia/Jakarta] PHP Info:
+[21-Jun-2024 16:38:07 Asia/Jakarta] PHP Version: 8.1.10
+[21-Jun-2024 16:38:07 Asia/Jakarta] Extension gd is loaded.
+[21-Jun-2024 16:38:07 Asia/Jakarta] Extension imagick is not loaded.
+[21-Jun-2024 16:38:07 Asia/Jakarta] Testing write permissions in directory: C:\laragon\www\asisten-tulis\output
+[21-Jun-2024 16:38:07 Asia/Jakarta] File write successful: C:\laragon\www\asisten-tulis\output/test.txt
+[21-Jun-2024 16:38:07 Asia/Jakarta] Directory is writable: C:\laragon\www\asisten-tulis\output
+[21-Jun-2024 16:38:07 Asia/Jakarta] Directory exists: C:\laragon\www\asisten-tulis\output
+[21-Jun-2024 16:38:07 Asia/Jakarta] PHP Info:
